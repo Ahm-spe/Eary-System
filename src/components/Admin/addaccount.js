@@ -2,8 +2,8 @@ import './addaccount.css'
 
 export function AddAccount(){
     return(
-        <div>
-       
+      
+      <div className="f1"> 
         <meta charSet="UTF-8" />
   
         <link rel="stylesheet" href="style.css" />

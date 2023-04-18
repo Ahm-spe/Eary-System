@@ -1,4 +1,6 @@
-
+.f2{
+  background-color: white;
+}
 
 table, th, td {
     border: 1px solid black;
@@ -25,6 +27,7 @@ table, th, td {
     background-color: red;
   }
 
+  
   .update{
     border-radius: 2px;
     background-color: green;

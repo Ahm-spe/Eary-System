@@ -3,9 +3,8 @@ import './register.css';
 
 export  function MyForm2 (){
     return (
-   
-
-        <div className="box-form">
+      <div className="f3">
+              <div className="box-form">
           <div className="left">
             <div className="overlay">
               <h1>Eary System.</h1>s
@@ -15,6 +14,15 @@ export  function MyForm2 (){
           </div>
           <div className="right">
             <h5>Register</h5>
+            <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
           
             <div className="inputs">
               <input type="name" placeholder="Name" />
@@ -34,5 +42,22 @@ export  function MyForm2 (){
             <button>Register</button>
           </div>
         </div>
-      );
+        <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      
+        </div>
+    )
+;
 }

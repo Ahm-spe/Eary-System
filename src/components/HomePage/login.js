@@ -4,8 +4,7 @@ import './style.css';
 export  function MyForm (){
     return (
    
-
-      <div>
+<div className="ff">
       <meta charSet="UTF-8" />
       <title>Login Page in HTML with CSS Code Example</title>
       <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" />
@@ -26,6 +25,10 @@ export  function MyForm (){
         </div>
         <div className="right">
           <h5>Login</h5>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
           <p>Don't have an account? <a href="register">Create Your Account</a> it takes less than a minute</p>
           <div className="inputs">
             <input type="text" placeholder="user name" />
@@ -45,7 +48,17 @@ export  function MyForm (){
           <button>Login</button>
         </div>
       </div>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      
       {/* partial */}
-    </div>
+</div>
   );
 }

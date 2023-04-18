@@ -3,7 +3,7 @@ import './ManageAccounts.css';
 
 export function Account(){
     return(
-        <div>
+      <div className="f2"> 
             
         <h1 >Our Accounts </h1> 
       <a href='addaccount'>
