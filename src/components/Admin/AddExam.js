@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 // import styled from 'vscode-styled-components';
 import './AddExam.css'
 
-function AddExam() {
+   export function AddExam() {
 
 
     return (

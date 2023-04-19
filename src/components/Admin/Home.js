@@ -2,15 +2,16 @@ import React from "react";
 import Uploadv from "./Uploadv";
 import AddExam from "./AddExam";
 
-const Home = () => {
+
+export const Home = () => {
   return (
     <>
       <Uploadv />
 
 
     </>
+
   )
+
 }
 
-
-export default Home;

@@ -7,6 +7,9 @@ import { MyForm } from './components/HomePage/login';
 import { MyForm2 } from './components/HomePage/register';
 import{Account} from'./components/Admin/ManageAccounts';
 import{AddAccount} from'./components/Admin/addaccount';
+import{Home} from  './components/Admin/Home';
+import {Nav} from './components/Admin/Nav';
+import{AddExam} from './components/Admin/AddExam';
 import {
   createBrowserRouter,
   RouterProvider,
@@ -29,7 +32,20 @@ const router = createBrowserRouter([
     path: "addaccount",
     element: <AddAccount/>,
   },
+  {
+    path: "Home",
+    element: <Home/>,
+  },
+  {
+    path: "nav",
+    element: <Nav/>,
+  },
+  {
+    path: "addexam",
+    element: <AddExam/>,
+  },
 ]);
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
