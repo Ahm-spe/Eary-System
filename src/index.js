@@ -10,11 +10,15 @@ import{AddAccount} from'./components/Admin/addaccount';
 import{Home} from  './components/Admin/Home';
 import {Nav} from './components/Admin/Nav';
 import{AddExam} from './components/Admin/AddExam';
+import{AppExams} from './components/User/Exams/Exams';
+import{History} from './components/User/History/History';
+
 import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
-// 
+import { AppUpdate } from './components/User/Update/Update';
+
 const router = createBrowserRouter([
   {
     path: "/",
@@ -43,6 +47,18 @@ const router = createBrowserRouter([
   {
     path: "addexam",
     element: <AddExam/>,
+  },
+    {
+    path: "Exams",
+    element: <AppExams/>,
+  },
+  {
+    path: "history",
+    element: <History/>,
+  },
+  {
+    path: "Update",
+    element: <AppUpdate/>,
   },
 ]);
 
