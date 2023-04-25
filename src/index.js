@@ -5,19 +5,20 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { MyForm } from './components/HomePage/login';
 import { MyForm2 } from './components/HomePage/register';
-import{Account} from'./components/Admin/ManageAccounts';
+import{Account, Manage} from'./components/Admin/ManageAccounts';
 import{AddAccount} from'./components/Admin/addaccount';
 import{Home} from  './components/Admin/Home';
-import {Nav} from './components/Admin/Nav';
 import{AddExam} from './components/Admin/AddExam';
 import{AppExams} from './components/User/Exams/Exams';
 import{History} from './components/User/History/History';
-
 import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
 import { AppUpdate } from './components/User/Update/Update';
+import { Dashboard } from './components/Admin/HomePage';
+import { Quizzes } from './components/Admin/Quizzes/Quizzes';
+
 
 const router = createBrowserRouter([
   {
@@ -29,7 +30,7 @@ const router = createBrowserRouter([
     element: <MyForm2/>,
   },
   {
-    path: "manageaccounts",
+    path: "ManageAccounts",
     element: <Account/>,
   },
   {
@@ -42,7 +43,7 @@ const router = createBrowserRouter([
   },
   {
     path: "nav",
-    element: <Nav/>,
+    element: <Dashboard/>,
   },
   {
     path: "addexam",
@@ -59,6 +60,14 @@ const router = createBrowserRouter([
   {
     path: "Update",
     element: <AppUpdate/>,
+  },
+  {
+    path: "/d",
+    element: <Dashboard/>,
+  },
+  {
+    path: "quizzes",
+    element: <Quizzes/>,
   },
 ]);
 

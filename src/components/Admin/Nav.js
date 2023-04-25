@@ -6,6 +6,7 @@ import AddExam from "./AddExam";
 
  export const Nav = () => {
     return (
+        <div>
         <div className="navbar">
 
 
@@ -14,11 +15,13 @@ import AddExam from "./AddExam";
 
             <ul >
                 <a href='Home'>Home</a>
-                <a href="addexam">Add Exam</a>
+                <a href="/addexam">Add Exam</a>
             </ul>
         </div>
+        <button>Register</button>
 
-    )
+</div>
+    );
 
 }
 

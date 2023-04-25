@@ -1,6 +1,6 @@
 import './history.css';
 
-export const History = () => {
+ export const History = () => {
     return (
       <>
       <table class="containerr2">
@@ -38,3 +38,4 @@ export const History = () => {
       </>
     )
 }
+

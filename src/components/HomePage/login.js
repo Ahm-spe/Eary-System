@@ -44,7 +44,7 @@ export  function MyForm (){
             </label>
             <p>forget password?</p>
           </div>
-          <br />
+      
           <button>Login</button>
         </div>
       </div>

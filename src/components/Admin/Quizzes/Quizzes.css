@@ -1,0 +1,60 @@
+.f7{
+    background-color: white;
+  }
+  
+  table, th, td {
+      border: 1px solid black;
+      border-collapse: collapse;
+      
+    }
+    .hh{
+      margin:auto;
+      display: block;
+      margin-left:auto;
+      margin-Right:auto;
+    }
+    table{
+      width: 100%;
+    }
+    .action{
+      width:10%;
+    }
+    .delete{
+      border-radius: 2px;
+      border: none;
+      color: white;
+      padding: 10px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 11px;
+      margin: 2px 2px;
+      cursor: pointer;
+      background-color: red;
+    }
+  
+    
+    .update{
+      border-radius: 2px;
+      background-color: green;
+      border: none;
+      color: white;
+      padding: 10px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 11px;
+      margin: 1px 1px;
+      cursor: pointer;
+    }
+  
+
+    .add{
+      background-color: blue;
+      padding: 5px 100px;
+      font-size: 25px;
+      margin:auto;
+      display: block;
+      margin-left:auto;
+      margin-Right:auto;
+    }

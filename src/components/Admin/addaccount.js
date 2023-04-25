@@ -1,8 +1,9 @@
 import './addaccount.css'
+import { Dashboard } from './HomePage';
 
 export function AddAccount(){
     return(
-      
+     
       <div className="f1"> 
         <meta charSet="UTF-8" />
   
@@ -70,3 +71,5 @@ export function AddAccount(){
       
     );
 }
+
+
