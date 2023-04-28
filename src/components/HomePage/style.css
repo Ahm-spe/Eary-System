@@ -110,6 +110,7 @@
   width: auto;
 }
 .box-form .right button {
+  position: relative;top:-100px;
   float: right;
   color: #fff;
   font-size: 16px;

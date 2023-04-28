@@ -1,7 +1,12 @@
 import './history.css';
+<<<<<<< HEAD
 import React from "react";
 import { Link } from 'react-router-dom';
 export const History = () => {
+=======
+
+ export const History = () => {
+>>>>>>> b15afe94b16c4129815f0aafa6f6c3c08e8640ef
     return (
       <>
       <table className="containerr2">
@@ -39,3 +44,4 @@ export const History = () => {
       </>
     )
 }
+

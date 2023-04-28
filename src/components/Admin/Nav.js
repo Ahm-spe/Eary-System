@@ -1,10 +1,12 @@
 import React from "react";
 import './Nav.css'
 import AddExam from "./AddExam";
-import Home from "./Home";
 
-const Nav = () => {
+
+
+ export const Nav = () => {
     return (
+        <div>
         <div className="navbar">
 
 
@@ -12,12 +14,14 @@ const Nav = () => {
             <a href="#" className="logo">logo</a>
 
             <ul >
-                <a href="/">Home</a>
+                <a href='Home'>Home</a>
                 <a href="/addexam">Add Exam</a>
             </ul>
         </div>
+        <button>Register</button>
 
-    )
+</div>
+    );
 
 }
 
