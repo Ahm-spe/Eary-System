@@ -9,6 +9,10 @@ import { AppExams } from "./components/User/Exams/Exams";
 import { AppUpdate } from "./components/User/Update/Update";
 import { History } from "./components/User/History/History";
 import { AppHeader } from "./components/User/Header/Header";
+import { Dashboard } from './components/Admin/HomePage';
+import { Quizzes } from './components/Admin/Quizzes/Quizzes';
+import{Home} from  './components/Admin/Home';
+import{AddExam} from './components/Admin/AddExam';
 export const routes = createBrowserRouter([
     {
         path: "/",
@@ -27,8 +31,24 @@ export const routes = createBrowserRouter([
         element: <AddAccount/>,
       },
       {
-        path: "Update",
-        element: <AppUpdate/>,
+        path: "addexam",
+        element: <AddExam/>,
+      },
+      {
+        path: "/d",
+        element: <Dashboard/>,
+      },
+      {
+        path: "quizzes",
+        element: <Quizzes/>,
+      },
+      {
+        path: "Home",
+        element: <Home/>,
+      },
+      {
+        path: "nav",
+        element: <Dashboard/>,
       },
   {
     path: "/User",
