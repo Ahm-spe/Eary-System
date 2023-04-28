@@ -1,9 +1,10 @@
 import './history.css';
-
+import React from "react";
+import { Link } from 'react-router-dom';
 export const History = () => {
     return (
       <>
-      <table class="containerr2">
+      <table className="containerr2">
       <thead>
 		<tr>
 			<th ><h1>Exams</h1></th>

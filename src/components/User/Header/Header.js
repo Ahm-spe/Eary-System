@@ -11,14 +11,14 @@ export const AppHeader = ()=>{
     return (
         <>
         
-        <div class="bg-img">
-        <navbar class="navbar">
+        <div className="bg-img">
+        <nav className="navbar">
         <Link><SlLogout size={25}/> LogOut </Link>
-        <Link to={'/History'}><BiHistory size={28}/>History Of Your Exams</Link>
-        <Link to={'/Update'}  ><GrUpdate size={25}/>Update Profile</Link>
-        <Link to={'/'}> <TfiWrite size ={23}/>Exams</Link>
+        <Link to={'/User/History'}><BiHistory size={28}/>History Of Your Exams</Link>
+        <Link to={'/User/Update'}  ><GrUpdate size={25}/>Update Profile</Link>
+        <Link to={'/User'}> <TfiWrite size ={23}/>Exams</Link>
 
-        </navbar>
+        </nav>
         </div>
       </>
     );
