@@ -8,26 +8,26 @@ import { Link } from 'react-router-dom';
 export const AppUpdate = () => {
     return (
        <>
-       <div class="login-box">
+       <div className="login-box">
   <h1><BsFillPersonFill size={39} style={{position:"relative" ,bottom : "-7px"}} />Your Profile</h1>
-  <form>
-    <div class="user-box">
+  <form >
+    <div className="user-box">
       <input type="text" name="" required/>
       <label>Username</label>
     </div>
-    <div class="user-box">
+    <div className="user-box">
       
       <input type="text" name=""  required/>
       <label><MdEmail  size={18} style={{position:"relative" ,bottom : "-2px"}}/>Email</label>
     </div>
-    <div class="user-box">
-    <div class="form__field">
+    <div className="user-box">
+    <div className="form__field">
       <input type="password" name="" pattern=".{5,}"required/>
-      <span class="icon"></span>
+      <span className="icon"></span>
       <label><RiLockPasswordFill size={18} style={{position:"relative" ,bottom : "-2px"}}/>Password</label>
       </div>
     </div>
-    <div class="user-box">
+    <div className="user-box">
       <input type="tel" name="" required/>
       <label><BsTelephoneFill size={15} style={{position:"relative" ,bottom : "0px"}}/>Phone</label>
     </div>
