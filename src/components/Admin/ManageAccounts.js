@@ -9,11 +9,11 @@ export function Account(){
        
       <div className="f2"> 
             
-        <h1 >Our Accounts </h1> 
+        <h1 className='h' >Our Accounts </h1> 
      
         <br></br> <br></br> <br></br> <br></br> <br></br> <br></br>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-        <table>
+        <table className='t1'>
           <tbody><tr>
               <th>name</th>
               <th>Email</th>

@@ -9,6 +9,7 @@ export function AddExam() {
 
 
         <>
+        
             <div class="formbold-main-wrapper">
 
                 <div class="formbold-form-wrapper">
@@ -87,29 +88,14 @@ export function AddExam() {
                             </select>
                         </div>
 
-
-
-
-                        {/* <div>
-                            <label for="message" class="formbold-form-label">
-                                Any comments or suggestions
-                            </label>
-                            <textarea
-                                rows="6"
-                                name="message"
-                                id="message"
-                                placeholder="Type here..."
-                                class="formbold-form-input"
-                            ></textarea>
-                        </div> */}
-
                         <button class="formbold-btn">Submit</button>
                         <button class="formbold-btn" routerlink="home">Make Exam</button>
                         <button class="formbold-btn">Cancel</button>
                     </form>
                 </div>
             </div>
-        </>
+         </>
+    
 
 
 

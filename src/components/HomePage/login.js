@@ -1,64 +1,35 @@
 
 import './style.css';
-
+import backgroundImage from 'E:/GitHub/Eary-System/src/assets/images/hearing-issues-collage-design.jpg';
 export  function MyForm (){
     return (
-   
-<div className="ff">
-      <meta charSet="UTF-8" />
-      <title>Login Page in HTML with CSS Code Example</title>
-      <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" />
-      <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossOrigin="anonymous" /><link rel="stylesheet" href="./style.css" />
-      {/* partial:index.partial.html */}
-      <div className="box-form">
-        <div className="left">
-          <div className="overlay">
-            <h1>Hello World.</h1>
-            <p>The Website called "Eary", which help people to check their hearing problems.</p>
-
-            <span>
-              <p>login with social media</p>
-            
-              <a href="register"><i className="fa fa-twitter" aria-hidden="true" /> Create Account</a>
-            </span>
+      <div className='form1'>
+      {/* Coding By CodingNepal - youtube.com/codingnepal */}
+      <meta charSet="utf-8" />
+      <title>Animated Login Form | CodingNepal</title>
+      <link rel="stylesheet" href="style.css" />
+      <img src="https://s25.postimg.cc/65hsttv9b/cta-arrow.png" alt="" className="flip-box-img"/>
+      <div className="center">
+        <h1>Login</h1>
+        <form method="post">
+          <div className="txt_field">
+            <input type="text" required />
+            <span />
+            <label>Username</label>
           </div>
-        </div>
-        <div className="right">
-          <h5>Login</h5>
-          <br></br>
-          <br></br>
-          <br></br>
-          <br></br>
-          <p>Don't have an account? <a href="register">Create Your Account</a> it takes less than a minute</p>
-          <div className="inputs">
-            <input type="text" placeholder="user name" />
-            <br />
-            <input type="password" placeholder="password" />
+          <div className="txt_field">
+            <input type="password" required />
+            <span />
+            <label>Password</label>
           </div>
-          <br /><br />
-          <div className="remember-me--forget-password">
-            {/* Angular */}
-            <label>
-              <input type="checkbox" name="item" defaultChecked />
-              <span className="text-checkbox">Remember me</span>
-            </label>
-            <p>forget password?</p>
+          <div className="pass">Forgot Password?</div>
+          <input className='input1' type="submit" defaultValue="Login" />
+          <div className="signup_link">
+            Not a member? <a href="#">Signup</a>
           </div>
-      
-          <button>Login</button>
-        </div>
+        </form>
       </div>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      
-      {/* partial */}
-</div>
+    </div>
   );
 }
+

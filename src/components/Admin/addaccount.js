@@ -12,7 +12,7 @@ export function AddAccount(){
         <div className="container">
           <div className="title">Add New Account </div>
           <div className="content">
-            <form action="#">
+            <form  action="#">
               <div className="user-details">
                 <div className="input-box">
                   <span className="details">Full Name</span>

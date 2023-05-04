@@ -10,7 +10,7 @@ import { AppUpdate } from "./components/User/Update/Update";
 import { History } from "./components/User/History/History";
 import { AppHeader } from "./components/User/Header/Header";
 import { Dashboard } from './components/Admin/HomePage';
-import { Quizzes } from './components/Admin/Quizzes/Quizzes';
+/*import { Quizzes } from './components/Admin/Quizzes/Quizzes';*/
 import{Home} from  './components/Admin/Home';
 import{AddExam} from './components/Admin/AddExam';
 export const routes = createBrowserRouter([
@@ -38,10 +38,12 @@ export const routes = createBrowserRouter([
         path: "/d",
         element: <Dashboard/>,
       },
-      {
+     /* {
         path: "quizzes",
         element: <Quizzes/>,
       },
+      */
+      
       {
         path: "Home",
         element: <Home/>,

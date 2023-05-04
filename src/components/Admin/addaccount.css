@@ -115,12 +115,12 @@ form .input-box span.details{
    letter-spacing: 1px;
    cursor: pointer;
    transition: all 0.3s ease;
-   background: linear-gradient(135deg, #71b7e6, #9b59b6);
+   background: linear-gradient(135deg,  #fbdf0af9, #f37d08);
  }
  form .button input:hover{
   /* transform: scale(0.99); */
   
-  background: linear-gradient(-135deg, #71b7e6, #9b59b6);
+  background: linear-gradient(-135deg, #fbdf0af9, #f37d08);
   }
  @media(max-width: 584px){
  .container{
@@ -145,4 +145,11 @@ form .user-details .input-box{
   .container .content .category{
     flex-direction: column;
   }
+}
+.f1{
+  
+  background-image: url(E:/GitHub/Eary-System/src/assets/images/hearing-issues-collage-design.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
 }

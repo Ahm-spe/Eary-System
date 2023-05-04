@@ -6,34 +6,34 @@ const Uploadv = () => {
   return (
 
 
-    <form id="uploadv" action="/">
+    <form clasName='fh' id="uploadv" action="/">
 
       <div className="formbold-form-label-title">Add New Question </div><br></br><hr></hr><br></br>
 
-      <h3> Upload The Voice... </h3><br></br>
+      <h3 className="hussein"> Upload The Voice... </h3><br></br>
       <input id="audioFileChooser" type="file" onchange="readFile(this.files);" class="btn-3" required />
       <h3 className="question">Put the answers :</h3><br></br>
-      <p>First choice</p>
-      <textarea rows={2} defaultValue={""} required />
+      <p className="ph">First choice</p>
+      <textarea className='th' rows={2} defaultValue={""} required />
       <br />
       <p>Second choice</p>
-      <textarea rows={2} defaultValue={""} required />
+      <textarea  className='th' rows={2} defaultValue={""} required />
 
       <div className="question-answer"></div>
 
       <br></br>
 
-      <h3>The answer is :</h3>
+      <h3 className="hussein">The answer is :</h3>
       <br></br>
 
       <div className="question-answer">
 
         <label>
-          <input type="radio" defaultValue={1} name="visited" /> First
+          <input className="ih" type="radio" defaultValue={1} name="visited" /> First
         </label>
 
         <label>
-          <input type="radio" defaultValue={2} name="visited" /> Second
+          <input className="ih"type="radio" defaultValue={2} name="visited" /> Second
         </label>
 
       </div>
