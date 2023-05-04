@@ -1,6 +1,6 @@
 import './addaccount.css'
 import { Dashboard } from './HomePage';
-
+import{image} from "../../assets/images/hearing-issues-collage-design.jpg"
 export function AddAccount(){
     return(
      

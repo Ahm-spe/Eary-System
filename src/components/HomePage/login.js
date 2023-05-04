@@ -1,6 +1,5 @@
 
 import './style.css';
-import backgroundImage from 'E:/GitHub/Eary-System/src/assets/images/hearing-issues-collage-design.jpg';
 export  function MyForm (){
     return (
       <div className='form1'>

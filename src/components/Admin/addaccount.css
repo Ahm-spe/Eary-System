@@ -148,7 +148,7 @@ form .user-details .input-box{
 }
 .f1{
   
-  background-image: url(E:/GitHub/Eary-System/src/assets/images/hearing-issues-collage-design.jpg);
+  background-image: url("../../assets/images/hearing-issues-collage-design.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 
