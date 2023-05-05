@@ -6,44 +6,33 @@ const Uploadv = () => {
   return (
 
 
-    <form clasName='fh' id="uploadv" action="/">
-
-      <div className="formbold-form-label-title">Add New Question </div><br></br><hr></hr><br></br>
-
-      <h3 className="hussein"> Upload The Voice... </h3><br></br>
-      <input id="audioFileChooser" type="file" onchange="readFile(this.files);" class="btn-3" required />
-      <h3 className="question">Put the answers :</h3><br></br>
-      <p className="ph">First choice</p>
-      <textarea className='th' rows={2} defaultValue={""} required />
-      <br />
-      <p>Second choice</p>
-      <textarea  className='th' rows={2} defaultValue={""} required />
-
-      <div className="question-answer"></div>
-
-      <br></br>
-
-      <h3 className="hussein">The answer is :</h3>
-      <br></br>
-
-      <div className="question-answer">
-
-        <label>
-          <input className="ih" type="radio" defaultValue={1} name="visited" /> First
-        </label>
-
-        <label>
-          <input className="ih"type="radio" defaultValue={2} name="visited" /> Second
-        </label>
-
+<div class="formh-container">
+    <form id="uploadv" action="/" className="formh">
+    <h3> Upload The Voice... </h3>  
+    <input id="audioFileChooser" type="file" onchange="readFile(this.files);" class="btn-3"  />  
+    <h3 className="question">Put the answers :</h3>
+    <p>First choice</p>
+    <textarea rows={2} defaultValue={""} required  className="textareah"/>
+    <br />
+    <p>Second choice</p>
+    <textarea rows={2} defaultValue={""} required className="textareah"/>
+    <div className="question-answerh"></div>  
+        <h3>The answer is :</h3>
+        <div className="question-answerh">
+          <label className="labelh">
+            <input type="radio" defaultValue={1} name="visited" className="inputh"/> First
+          </label>
+          <label className="labelh">
+            <input type="radio" defaultValue={2} name="visited" className="inputh"/> Second
+          </label>
+        </div>
+        <div className="btn-block">
+          <button type="submit" >
+            Send
+          </button>
+        </div>
+      </form>
       </div>
-
-      <div className="btn-block">
-        <button type="submit" href="/">
-          Send
-        </button>
-      </div>
-    </form>
 
 
   )

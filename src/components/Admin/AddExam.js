@@ -17,7 +17,7 @@ export function AddExam() {
                     <form className='container' >
                         <div class="formbold-input-group">
 
-                            <div className="formbold-form-label-title">Add New Account </div><br></br><hr></hr><br></br>
+                            <div className="formbold-form-label-title">Add New Exam </div><br></br><hr></hr><br></br>
 
                             <label for="name" class="formbold-form-label"> Exam ID </label>
                             <input
