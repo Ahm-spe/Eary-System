@@ -19,19 +19,19 @@ export const routes = createBrowserRouter([
         element: <MyForm/>,
       },
       {
-        path: "register",
+        path: "/register",
         element: <MyForm2/>,
       },
       {
-        path: "manageaccounts",
+        path: "/manageaccounts",
         element: <Account/>,
       },
       {
-        path: "addaccount",
+        path: "/addaccount",
         element: <AddAccount/>,
       },
       {
-        path: "addexam",
+        path: "/addexam",
         element: <AddExam/>,
       },
       {
@@ -45,11 +45,11 @@ export const routes = createBrowserRouter([
       */
       
       {
-        path: "Home",
+        path: "/Home-Admin",
         element: <Home/>,
       },
       {
-        path: "nav",
+        path: "/nav",
         element: <Dashboard/>,
       },
   {

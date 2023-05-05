@@ -22,9 +22,12 @@ export  function MyForm (){
             <label>Password</label>
           </div>
           <div className="pass">Forgot Password?</div>
-          <input className='input1' type="submit" defaultValue="Login" />
+
+          <div className="button">
+                <input type="submit" defaultValue="Login" />
+              </div>
           <div className="signup_link">
-            Not a member? <a href="#">Signup</a>
+            Not a member? <a href="./register">Register</a>
           </div>
         </form>
       </div>

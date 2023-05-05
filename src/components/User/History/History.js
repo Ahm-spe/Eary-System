@@ -29,11 +29,6 @@ import { Link } from 'react-router-dom';
               <td>2/2/2023</td>
               <td>88</td>
           </tr>
-      <tr>
-              <td>Database</td>
-              <td>9/3/2023</td>
-              <td>90</td>
-          </tr>
       
       </tbody>
   </table>

@@ -17,7 +17,6 @@ export const AppHeader = ()=>{
         <Link to={'/User/History'}><BiHistory size={28}/>History Of Your Exams</Link>
         <Link to={'/User/Update'}  ><GrUpdate size={25}/>Update Profile</Link>
         <Link to={'/User'}> <TfiWrite size ={23}/>Exams</Link>
-
         </nav>
         </div>
       </>
